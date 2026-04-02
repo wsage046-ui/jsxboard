@@ -1,0 +1,14 @@
+{
+  "name": "@my-monorepo/web",
+  "version": "1.0.0",
+  "description": "Web application",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "echo 'Building web app'"
+  },
+  "dependencies": {
+    "@my-monorepo/ui-lib": "workspace:*",
+    "@my-monorepo/utils": "workspace:*",
+    "react": "^18.2.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@my-monorepo/utils",
+  "version": "0.1.0",
+  "description": "Shared utility functions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  }
+}
