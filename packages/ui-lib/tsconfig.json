@@ -1,8 +1,12 @@
 {
   "compilerOptions": {
+    "jsx": "react",
     "target": "ES2020",
     "module": "ESNext",
-    "lib": ["ES2020", "DOM"],
+    "lib": [
+      "ES2020",
+      "DOM"
+    ],
     "outDir": "./dist",
     "rootDir": "./src",
     "strict": true,
@@ -11,5 +15,7 @@
     "forceConsistentCasingInFileNames": true,
     "declaration": true
   },
-  "include": ["src"]
+  "include": [
+    "src"
+  ]
 }
